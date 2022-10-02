@@ -16,18 +16,18 @@ const card = () => {
     <>
         <div style={{display:'flex', flexWrap: 'wrap', justifyContent:'space-around'}}>
         <Cards name={'Grade-1 (သင်ရိုးသစ်)'} image={gradeOne} url="/grade_1"/>
-        <Cards name={'Grade-2 (သင်ရိုးသစ်)'} image={gradeTwo}/>
-        <Cards name={'Grade-3 (သင်ရိုးသစ်)'} image={gradeThree}/>
-        <Cards name={'Grade-4 (သင်ရိုးသစ်)'} image={gradeFour}/>
-        <Cards name={'Grade-5 (သင်ရိုးသစ်)'} image={gradeFive}/>
-        <Cards name={'Grade-6 (သင်ရိုးသစ်)'} image={gradeSix}/>
-        <Cards name={'Grade-7 (သင်ရိုးသစ်)'} image={gradeSeven}/>
-        <Cards name={'Grade-8 (သင်ရိုးဟောင်း)'} image={gradeSeven}/>
-        <Cards name={'Grade-9 (သင်ရိုးဟောင်း)'} image={gradeEight}/>
-        <Cards name={'Grade-10 (သင်ရိုးသစ်)'} image={gradeTen}/>
-        <Cards name={'Grade-10 (သင်ရိုးဟောင်း)'} image={gradeNine}/>
-        <Cards name={'Grade-11 (သင်ရိုးဟောင်း)'} image={gradeTen}/>
-        <Cards name={'Grade-11 (သင်ရိုးသစ်)'} image={gradeEleven}/>
+        <Cards name={'Grade-2 (သင်ရိုးသစ်)'} image={gradeTwo} url="/building"/>
+        <Cards name={'Grade-3 (သင်ရိုးသစ်)'} image={gradeThree} url="/building"/>
+        <Cards name={'Grade-4 (သင်ရိုးသစ်)'} image={gradeFour} url="/building"/>
+        <Cards name={'Grade-5 (သင်ရိုးသစ်)'} image={gradeFive} url="/building"/>
+        <Cards name={'Grade-6 (သင်ရိုးသစ်)'} image={gradeSix} url="/building"/>
+        <Cards name={'Grade-7 (သင်ရိုးသစ်)'} image={gradeSeven} url="/building"/>
+        <Cards name={'Grade-8 (သင်ရိုးဟောင်း)'} image={gradeSeven} url="/building"/>
+        <Cards name={'Grade-9 (သင်ရိုးဟောင်း)'} image={gradeEight} url="/building"/>
+        <Cards name={'Grade-10 (သင်ရိုးသစ်)'} image={gradeTen} url="/building"/>
+        <Cards name={'Grade-10 (သင်ရိုးဟောင်း)'} image={gradeNine} url="/building"/>
+        <Cards name={'Grade-11 (သင်ရိုးဟောင်း)'} image={gradeTen} url="/building"/>
+        <Cards name={'Grade-11 (သင်ရိုးသစ်)'} image={gradeEleven} url="/building"/>
         </div>
     </>
   )
