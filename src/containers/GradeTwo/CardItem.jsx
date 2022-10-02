@@ -3,14 +3,14 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import {CardActionArea, CardActions, } from '@mui/material';
+import { Button, CardActionArea, CardActions, } from '@mui/material';
 
-const CardItem = ({name,image,url}) => {
+const CardItem = ({ name, image, url }) => {
   return (
-    <Card sx={{margin: '10px'}}>
+    <Card sx={{ margin: '10px' }}>
       <CardActionArea>
         <CardMedia
-        id="img"
+          id="img"
           component="img"
           height="210"
           width="210"
@@ -24,9 +24,9 @@ const CardItem = ({name,image,url}) => {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <a href={url}>
-            Download
-        </a>
+        <Button size="small" variant="contained" href={url}>
+          Download
+        </Button>
       </CardActions>
     </Card>
   )
