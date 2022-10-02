@@ -4,7 +4,7 @@ import {Alert} from '@mui/material';
 const building = () => {
   return (
     <>
-    <Alert severity="warning">This is a warning alert — check it out!</Alert>
+    <Alert severity="warning">Text Book is under uploading.</Alert>
     </>
   )
 }
