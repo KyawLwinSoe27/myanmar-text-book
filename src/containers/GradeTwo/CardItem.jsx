@@ -5,11 +5,12 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import {CardActionArea, CardActions, } from '@mui/material';
 
-const Grade = ({name,image,url}) => {
+const CardItem = ({name,image,url}) => {
   return (
-    <Card sx={{margin: '5px'}}>
+    <Card sx={{margin: '10px'}}>
       <CardActionArea>
         <CardMedia
+        id="img"
           component="img"
           height="210"
           width="210"
@@ -24,10 +25,11 @@ const Grade = ({name,image,url}) => {
       </CardActionArea>
       <CardActions>
         <a href={url}>
-            Go Into
+            Download
         </a>
       </CardActions>
     </Card>
-  );
+  )
 }
-export default Grade;
+
+export default CardItem;
