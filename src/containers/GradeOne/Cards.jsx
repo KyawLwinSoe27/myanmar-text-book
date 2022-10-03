@@ -21,12 +21,12 @@ const Cards = () => {
         <CardItem name='အင်္ဂလိပ်စာ' image={english} url="https://drive.google.com/file/d/1bUg0uO568O4a4EkUfweZELhUedvSUQ9_/view?usp=sharing" />
         <CardItem name='သင်္ချာ' image={math} url="https://drive.google.com/file/d/1OYmpSDPQRoDpFMefFLIKv-6PWZ_2iqQ8/view?usp=sharing" />
         <CardItem name='သိပ္ပံ' image={science} url="https://drive.google.com/file/d/1ZZY965sFfCzq9AtemL1tRAa31U5j4qhI/view?usp=sharing" />
-        <CardItem name='ကာယပညာ' image={social} url="https://drive.google.com/file/d/156fVJUmo878O8hYHN2O5kG2m68XvyIhk/view?usp=sharing" />
-        <CardItem name='စာရိတ္တနှင့်ပြည်သူ့နီတိ' image={physical} url="https://drive.google.com/file/d/1MasTlMK1VVocCJ4o6Hdbeoh9UTAGdxOC/view?usp=sharing" />
+        <CardItem name='ကာယပညာ' image={physical} url="https://drive.google.com/file/d/156fVJUmo878O8hYHN2O5kG2m68XvyIhk/view?usp=sharing" />
+        <CardItem name='စာရိတ္တနှင့်ပြည်သူ့နီတိ' image={civil} url="https://drive.google.com/file/d/1MasTlMK1VVocCJ4o6Hdbeoh9UTAGdxOC/view?usp=sharing" />
         <CardItem name='ဘဝတွက်တာကျွမ်းကျင်စရာ' image={life} url="https://drive.google.com/file/d/1JPzxvlGkTfXXt-pm9Lj0B0X_sLsNpiCE/view?usp=sharing" />
-        <CardItem name='လူမှုရေး' image={civil} url="https://drive.google.com/file/d/1Zd4IxNi5aU_TTHKsPUYxFnxy1XiIgfq-/view?usp=sharing" />
-        <CardItem name='အနုပညာ(ဂီတ)' image={art_art} url="https://drive.google.com/file/d/1by-xaMv7jKAOEDHWoA_qcQI928gVstAB/view?usp=sharing" />
-        <CardItem name='အနုပညာ(ပန်းချီ)' image={art_music} url="https://drive.google.com/file/d/1AOW-GcSd4xeCytcwL--YVI2wGee50_aJ/view?usp=sharing" />
+        <CardItem name='လူမှုရေး' image={social} url="https://drive.google.com/file/d/1Zd4IxNi5aU_TTHKsPUYxFnxy1XiIgfq-/view?usp=sharing" />
+        <CardItem name='အနုပညာ(ဂီတ)' image={art_music} url="https://drive.google.com/file/d/1by-xaMv7jKAOEDHWoA_qcQI928gVstAB/view?usp=sharing" />
+        <CardItem name='အနုပညာ(ပန်းချီ)' image={art_art} url="https://drive.google.com/file/d/1AOW-GcSd4xeCytcwL--YVI2wGee50_aJ/view?usp=sharing" />
     </div>
     </>
     

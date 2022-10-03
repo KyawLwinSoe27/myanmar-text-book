@@ -17,7 +17,7 @@ const card = () => {
         <div style={{display:'flex', flexWrap: 'wrap', justifyContent:'space-around'}}>
         <Cards name={'Grade-1 (သင်ရိုးသစ်)'} image={gradeOne} url="/grade_1"/>
         <Cards name={'Grade-2 (သင်ရိုးသစ်)'} image={gradeTwo} url="/grade_2"/>
-        <Cards name={'Grade-3 (သင်ရိုးသစ်)'} image={gradeThree} url="/building"/>
+        <Cards name={'Grade-3 (သင်ရိုးသစ်)'} image={gradeThree} url="/grade_3"/>
         <Cards name={'Grade-4 (သင်ရိုးသစ်)'} image={gradeFour} url="/building"/>
         <Cards name={'Grade-5 (သင်ရိုးသစ်)'} image={gradeFive} url="/building"/>
         <Cards name={'Grade-6 (သင်ရိုးသစ်)'} image={gradeSix} url="/building"/>
