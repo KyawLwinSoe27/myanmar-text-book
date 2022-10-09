@@ -5,6 +5,7 @@ import GradeOne from './containers/GradeOne/Cards';
 import GradeTwo from './containers/GradeTwo/Cards';
 import GradeThree from './containers/GradeThree/Cards';
 import GradeFour from './containers/GradeFour/Cards';
+import GradeFive from './containers/GradeFive/Cards';
 import Building from './containers/Building/building';
 import {Routes, Route} from 'react-router-dom';
 import Footer from './components/Footer/Footer';
@@ -23,6 +24,7 @@ const App = () => {
           <Route path='/grade_2' element={<GradeTwo /> }/>
           <Route path='/grade_3' element={<GradeThree /> }/>
           <Route path='/grade_4' element={<GradeFour />} />
+          <Route path='/grade_5' element={<GradeFive />} />
           <Route path='/building' element={<Building/>}/>
         </Routes>
       </main>
