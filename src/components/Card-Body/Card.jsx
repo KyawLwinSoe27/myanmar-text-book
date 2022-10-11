@@ -21,7 +21,7 @@ const card = () => {
         <Cards name={'Grade-4 (သင်ရိုးသစ်)'} image={gradeFour} url="/grade_4"/>
         <Cards name={'Grade-5 (သင်ရိုးသစ်)'} image={gradeFive} url="/grade_5"/>
         <Cards name={'Grade-6 (သင်ရိုးသစ်)'} image={gradeSix} url="/grade_6"/>
-        <Cards name={'Grade-7 (သင်ရိုးသစ်)'} image={gradeSeven} url="/building"/>
+        <Cards name={'Grade-7 (သင်ရိုးသစ်)'} image={gradeSeven} url="/grade_7"/>
         <Cards name={'Grade-8 (သင်ရိုးဟောင်း)'} image={gradeSeven} url="/building"/>
         <Cards name={'Grade-9 (သင်ရိုးဟောင်း)'} image={gradeEight} url="/building"/>
         <Cards name={'Grade-10 (သင်ရိုးသစ်)'} image={gradeTen} url="/building"/>
